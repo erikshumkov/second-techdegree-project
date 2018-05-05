@@ -9,13 +9,8 @@ body {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #fff;
-  background: #000; /*#fafafa;*/
+  background: #000;
 }
-
-.start {
-  background-color: #000;
-}
-
 
 a {
   text-decoration: none;
@@ -59,6 +54,7 @@ header p {
   width: 70%;
 }
 
+/* portfolio section */
 main {
   padding: 20px 0 30px 0;
   background-color: #fff;
@@ -84,6 +80,7 @@ main p {
   font-size: 17px;
 }
 
+/* skills section */
 .skills {
   margin-top: 35px;
   padding-top: 40px;
@@ -306,6 +303,10 @@ span a {
   .navigation ul {
     display: flex;
     flex-direction: row;
+  }
+
+  header p {
+    font-size: 27px;
   }
 
   .wrapper {
